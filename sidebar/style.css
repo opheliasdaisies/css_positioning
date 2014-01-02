@@ -6,8 +6,9 @@ header {
 }
 section {
   background: lightgreen;
-  width: 75%;
+  width: 72%;
   float: left;
+  padding: 1%;
 }
 article {
   background: white;
@@ -15,8 +16,9 @@ article {
 }
 aside {
   background: pink;
-  width: 25%;
+  width: 22%;
   float: right;
+  padding: 1%;
 }
 header, article, section, .module {
   padding: 1rem;
