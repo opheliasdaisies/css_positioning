@@ -64,13 +64,47 @@ h1, h2 {
 
 .main-story img {
   width: 100%;
-  min-width: 425px;
+  min-width: 284px;
 }
 
 .main-story .story-intro {
-  min-width: 425px;
+  min-width: 143px;
 }
 
 .sub-story img {
   width: 100%;
+}
+
+@media only screen and (max-width: 892px){
+  h1 {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 677px){
+  h1 {
+    font-size: 2em;
+  }
+
+  .story-intro h1 {
+   font-size: 1.5em; 
+  }
+}
+
+@media only screen and (max-width: 623px){
+  .main-story .story-intro {
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 558px){
+  .main-story h1 {
+    font-size: 1em;
+  }
+  .main-story p {
+    font-size: .75em;
+  }
 }
