@@ -50,13 +50,27 @@ h1, h2 {
 }
 
 .sub-story {
-  float: left;
-  width: 250px;
-  margin-right: 25px;
+  display: inline-block;
+  width: 30%;
+  min-width: 157px;
+  margin-right: 4%;
   position: relative;
   font-size: 80%;
 }
 
 .last {
   margin-right: 0;
+}
+
+.main-story img {
+  width: 100%;
+  min-width: 425px;
+}
+
+.main-story .story-intro {
+  min-width: 425px;
+}
+
+.sub-story img {
+  width: 100%;
 }
